@@ -1,0 +1,26 @@
+.wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: calc(0px + var(--height-control));
+    // height: calc(100vh - var(--height-control));
+    width: var(--width-sidebar);
+    background-color: var(--bg-dim);
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-logo{
+    display: block;
+    margin-top: 16px;
+    padding-left: var(--padlef-sidebar);
+
+    &:hover{
+        opacity: .9;
+    }
+}
+
+.logo{
+    width: 130px;
+    height: 38px;
+}
